@@ -97,10 +97,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R             &kp T                                               &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A             &kp S         &kp D         &kp F             &kp G        &kp ESCAPE              &kp EQUAL      &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp TAB                 &parenthesis   &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 LANG_HANJA  &lt 2 SPACE  &lt 3 LANG_HANGEUL      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R             &kp T                                                                   &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
+&kp A             &kp S         &kp D         &kp F             &kp G        &kp ESCAPE              &kp EQUAL                          &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp TAB                 &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 LANG_HANJA  &lt 2 SPACE  &lt 3 LANG_HANGEUL      &kp BACKSPACE                      &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -117,10 +117,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                              &kp ASTRK     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans     &kp CLEAR     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans     &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS
-&trans                      &trans           &trans           &trans           &trans        &trans                       &kp EQUAL  &kp NUMBER_0                                            &kp PLUS
+&trans      &kp F7  &kp F8  &kp F9  &kp F10                          &kp ASTRK     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
+&trans      &kp F4  &kp F5  &kp F6  &kp F11  &trans       &trans     &kp CLEAR     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK
+&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F12  &kp F13      &trans     &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS
+&trans      &trans  &trans  &trans  &trans   &trans       &kp EQUAL  &kp NUMBER_0                                            &kp PLUS
             >;
         };
 
