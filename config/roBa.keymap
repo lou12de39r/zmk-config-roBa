@@ -91,7 +91,7 @@
         parenthesis: parenthesis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1 &kp ASTERISK &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
+            bindings = <&kp LANGUAGE_1 &kp JP_LPAREN &kp JP_RPAREN &kp LEFT_ARROW>;
             label = "parenthesis";
         };
     };
